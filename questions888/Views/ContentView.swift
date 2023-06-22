@@ -27,8 +27,7 @@ struct ContentView: View{
                         Text("888questions")
                             .font(.titleGasoek)
                             .foregroundColor(Color("pink888"))
-                            .padding(.top, 20)
-                            .padding(.bottom, 40)
+                            .padding(.bottom, 30)
                     }
                     //category rectangle
                     Group {

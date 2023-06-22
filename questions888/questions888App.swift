@@ -11,7 +11,7 @@ import SwiftUI
 struct questions888App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            welcomeView()
         }
     }
 }

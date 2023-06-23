@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct welcomeView: View {
+    
     var body: some View {
         NavigationView{
             ZStack{
                 Rectangle()
                     .foregroundColor(Color("background888"))
                     .ignoresSafeArea()
-                        
+                
                 VStack{
                     ScrollView {
                         Text("888questions")
@@ -30,13 +31,13 @@ struct welcomeView: View {
                                 rectangleView(cornerRadius: 20, height: 150)
                                     .foregroundColor(.white)
                                 Text("Couples")
-                                    .font(.ButtonGasoek)
+                                    .font(.titleGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
                         }
-
                         
-                            
+                        
+                        
                         
                         NavigationLink {
                             ContentView()
@@ -45,7 +46,7 @@ struct welcomeView: View {
                                 rectangleView(cornerRadius: 20, height: 150)
                                     .foregroundColor(.white)
                                 Text("Party")
-                                    .font(.ButtonGasoek)
+                                    .font(.titleGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
                         }
@@ -56,7 +57,7 @@ struct welcomeView: View {
                                 rectangleView(cornerRadius: 20, height: 150)
                                     .foregroundColor(.white)
                                 Text("18+")
-                                    .font(.ButtonGasoek)
+                                    .font(.titleGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
                         }
@@ -67,7 +68,7 @@ struct welcomeView: View {
                                 rectangleView(cornerRadius: 20, height: 150)
                                     .foregroundColor(.white)
                                 Text("Challenge")
-                                    .font(.ButtonGasoek)
+                                    .font(.titleGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
                         }
@@ -75,10 +76,9 @@ struct welcomeView: View {
                 }
             }
         }
-        
     }
+    
 }
-
 struct welcomeView_Previews: PreviewProvider {
     static var previews: some View {
         welcomeView()

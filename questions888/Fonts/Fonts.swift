@@ -13,6 +13,7 @@ extension Font {
     
     public static var titleGasoek = Font.custom("GasoekOne-Regular", size: 36)
     public static var ButtonGasoek = Font.custom("GasoekOne-Regular", size: 28)
-    public static var QuestionGasoek = Font.custom("GasoekOne-Regular", size: 21)
+    public static var NameGasoek = Font.custom("GasoekOne-Regular", size: 24)
+    public static var QuestionGasoek = Font.custom("GasoekOne-Regular", size: 19)
     public static var smallGasoek = Font.custom("GasoekOne-Regular", size: 18)
 }

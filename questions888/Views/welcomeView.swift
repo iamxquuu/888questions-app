@@ -1,21 +1,13 @@
-//
-//  welcomeView.swift
-//  questions888
-//
-//  Created by Marcel Maciaszek on 22/06/2023.
-//
-
 import SwiftUI
 
 struct welcomeView: View {
-    
     var body: some View {
-        NavigationView{
+        NavigationStack {
             ZStack{
                 Rectangle()
                     .foregroundColor(Color("background888"))
                     .ignoresSafeArea()
-                
+                        
                 VStack{
                     ScrollView {
                         Text("888questions")
@@ -23,53 +15,51 @@ struct welcomeView: View {
                             .foregroundColor(Color("pink888"))
                         Text("Choose Category to Continue")
                             .font(.title3)
+                            .foregroundColor(.white)
                             .bold()
                         NavigationLink {
-                            ContentView()
+                            PlayersCountView()
                         } label: {
                             ZStack {
                                 rectangleView(cornerRadius: 20, height: 150)
                                     .foregroundColor(.white)
                                 Text("Couples")
-                                    .font(.titleGasoek)
+                                    .font(.ButtonGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
                         }
-                        
-                        
-                        
-                        
-                        NavigationLink {
-                            ContentView()
-                        } label: {
-                            ZStack {
-                                rectangleView(cornerRadius: 20, height: 150)
-                                    .foregroundColor(.white)
+                        ZStack {
+                            rectangleView(cornerRadius: 20, height: 150)
+                                .foregroundColor(.white)
+                            VStack {
                                 Text("Party")
-                                    .font(.titleGasoek)
-                                    .foregroundColor(Color("pink888"))
+                                    .font(.ButtonGasoek)
+                                    .foregroundColor(.gray)
+                                HStack{
+                                    Image(systemName: "lock.fill")
+                                        .foregroundColor(.gray)
+                                        .font(.NameGasoek)
+                                    Text("Coming Soon...")
+                                        .font(.NameGasoek)
+                                        .foregroundColor(.gray)
+                                }
                             }
                         }
-                        NavigationLink {
-                            ContentView()
-                        } label: {
-                            ZStack {
-                                rectangleView(cornerRadius: 20, height: 150)
-                                    .foregroundColor(.white)
+                        ZStack {
+                            rectangleView(cornerRadius: 20, height: 150)
+                                .foregroundColor(.white)
+                            VStack {
                                 Text("18+")
-                                    .font(.titleGasoek)
-                                    .foregroundColor(Color("pink888"))
-                            }
-                        }
-                        NavigationLink {
-                            ContentView()
-                        } label: {
-                            ZStack {
-                                rectangleView(cornerRadius: 20, height: 150)
-                                    .foregroundColor(.white)
-                                Text("Challenge")
-                                    .font(.titleGasoek)
-                                    .foregroundColor(Color("pink888"))
+                                    .font(.ButtonGasoek)
+                                    .foregroundColor(.gray)
+                                HStack{
+                                    Image(systemName: "lock.fill")
+                                        .foregroundColor(.gray)
+                                        .font(.NameGasoek)
+                                    Text("Coming Soon...")
+                                        .font(.NameGasoek)
+                                        .foregroundColor(.gray)
+                                }
                             }
                         }
                     }
@@ -77,8 +67,8 @@ struct welcomeView: View {
             }
         }
     }
-    
 }
+
 struct welcomeView_Previews: PreviewProvider {
     static var previews: some View {
         welcomeView()

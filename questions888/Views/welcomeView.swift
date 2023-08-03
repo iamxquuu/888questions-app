@@ -1,6 +1,8 @@
 import SwiftUI
+import GoogleMobileAds
 
 struct welcomeView: View {
+
     var body: some View {
         NavigationStack {
             ZStack{
@@ -9,14 +11,15 @@ struct welcomeView: View {
                     .ignoresSafeArea()
                         
                 VStack{
+                    Text("888questions")
+                        .font(.titleGasoek)
+                        .foregroundColor(Color("pink888"))
+                    Text("Choose Category to Continue")
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .bold()
+                        .padding(.bottom, 5)
                     ScrollView {
-                        Text("888questions")
-                            .font(.titleGasoek)
-                            .foregroundColor(Color("pink888"))
-                        Text("Choose Category to Continue")
-                            .font(.title3)
-                            .foregroundColor(.white)
-                            .bold()
                         NavigationLink {
                             PlayersCountView()
                         } label: {
@@ -27,7 +30,7 @@ struct welcomeView: View {
                                     .font(.ButtonGasoek)
                                     .foregroundColor(Color("pink888"))
                             }
-                        }
+                        }.padding(.top, 10)
                         ZStack {
                             rectangleView(cornerRadius: 20, height: 150)
                                 .foregroundColor(.white)
@@ -74,3 +77,4 @@ struct welcomeView_Previews: PreviewProvider {
         welcomeView()
     }
 }
+

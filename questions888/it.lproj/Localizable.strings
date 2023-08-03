@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  questions888
+
+  Created by Marcel Maciaszek on 31/07/2023.
+  
+*/
+"Choose Category to Continue" = "Scegli una categoria per continuare";
+"Couples" = "Coppie";
+"Party" = "Festa";
+"Coming Soon..." = "Prossimamente...";
+"Choose number of players:" = "Scegli il numero di giocatori:";
+"Number of Players: " = "Numero di giocatori:";
+"Next" = "Avanti";
+"Enter Player Names:" = "Inserisci i nomi dei giocatori:";
+"Your username can contain a maximum of 11 characters." = "Il tuo nome utente può contenere al massimo 11 caratteri.";
+"Player" = "Giocatore";
+"Category" = "Categoria";
+"Questions for Couples" = "Domande per Coppie";
+"out of 888 on this Category" = "su 888 in questa categoria";
+"Next Question" = "Prossima Domanda";
+"Question" = "Domanda";

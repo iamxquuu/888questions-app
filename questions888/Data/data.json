@@ -1537,7 +1537,7 @@
     },
     {
         "questionNumber": 385,
-        "question": "How do you think social media has influenced the field of marketing and advertising?"
+        "question": "How do you think social media has influenced our relationship?"
     },
     {
         "questionNumber": 386,
@@ -1598,8 +1598,254 @@
     {
         "questionNumber": 400,
         "question": "What are some of the ways in which social media can be used to promote social good and positive change?"
+    },
+    {
+        "questionNumber": 400,
+        "question": "If you could travel anywhere in the world together, where would you go and why?"
+    },
+    {
+        "questionNumber": 401,
+        "question": "What are your favorite shared hobbies or activities that you both enjoy?"
+    },
+    {
+        "questionNumber": 402,
+        "question": "Do you have any special traditions or rituals that you do together?"
+    },
+    {
+        "questionNumber": 403,
+        "question": "What's the most spontaneous thing you've ever done as a couple?"
+    },
+    {
+        "questionNumber": 404,
+        "question": "What's the funniest or most embarrassing moment you've had together?"
+    },
+    {
+        "questionNumber": 405,
+        "question": "What are some future goals or bucket list items you want to accomplish together?"
+    },
+    {
+        "questionNumber": 406,
+        "question": "If you could describe your relationship in three words, what would they be?"
+    },
+    {
+        "questionNumber": 407,
+        "question": "What are your favorite movies or TV shows to watch as a couple?"
+    },
+    {
+        "questionNumber": 408,
+        "question": "What's the most meaningful gift you've given or received from each other?"
+    },
+    {
+        "questionNumber": 409,
+        "question": "If you could relive one day from your relationship, which day would it be and why?"
+    },
+    {
+        "questionNumber": 410,
+        "question": "What's your favorite memory from when you first met or started dating?"
+    },
+    {
+        "questionNumber": 411,
+        "question": "What are some small gestures or acts of kindness that make you feel loved and appreciated?"
+    },
+    {
+        "questionNumber": 412,
+        "question": "Do you have a couple's song or a song that holds a special meaning for your relationship?"
+    },
+    {
+        "questionNumber": 413,
+        "question": "What's the most adventurous thing you've done together?"
+    },
+    {
+        "questionNumber": 414,
+        "question": "If you could have a dream date night, what would it look like?"
+    },
+    {
+        "questionNumber": 415,
+        "question": "What are some qualities or traits that you admire and appreciate in each other?"
+    },
+    {
+        "questionNumber": 416,
+        "question": "Do you have a favorite season or time of year that you enjoy together?"
+    },
+    {
+        "questionNumber": 417,
+        "question": "What are some things you'd like to learn or explore together in the future?"
+    },
+    {
+        "questionNumber": 418,
+        "question": "If you could star in a movie together, what genre would it be?"
+    },
+    {
+        "questionNumber": 419,
+        "question": "What's your go-to dance move when you dance together?"
+    },
+    {
+        "questionNumber": 420,
+        "question": "If you two were a superhero duo, what would your names and powers be?"
+    },
+    {
+        "questionNumber": 421,
+        "question": "What's your favorite inside joke or secret language that only you both understand?"
+    },
+    {
+        "questionNumber": 422,
+        "question": "If your love story was a book, what would the title be?"
+    },
+    {
+        "questionNumber": 423,
+        "question": "If you could have a pet together, real or imaginary, what would it be?"
+    },
+    {
+        "questionNumber": 424,
+        "question": "What's the most unique date you've ever been on as a couple?"
+    },
+    {
+        "questionNumber": 425,
+        "question": "If your relationship had a theme song, what would it be?"
+    },
+    {
+        "questionNumber": 426,
+        "question": "What's the craziest adventure you've had together?"
+    },
+    {
+        "questionNumber": 427,
+        "question": "If you were characters in a video game, what would be your special abilities?"
+    },
+    {
+        "questionNumber": 428,
+        "question": "What's a new skill or hobby you'd like to learn together?"
+    },
+    {
+        "questionNumber": 429,
+        "question": "If your love was a scent, what would it smell like?"
+    },
+    {
+        "questionNumber": 430,
+        "question": "What's your favorite way to comfort or cheer each other up?"
+    },
+    {
+        "questionNumber": 431,
+        "question": "If you could time travel together, which era would you visit and why?"
+    },
+    {
+        "questionNumber": 432,
+        "question": "What's your favorite memory from a spontaneous road trip you took together?"
+    },
+    {
+        "questionNumber": 433,
+        "question": "If you were characters in a fairytale, which roles would you play?"
+    },
+    {
+        "questionNumber": 434,
+        "question": "What's a quirky habit or tradition you have as a couple?"
+    },
+    {
+        "questionNumber": 435,
+        "question": "If you had your own talk show, who would be your dream couple guest?"
+    },
+    {
+        "questionNumber": 436,
+        "question": "What's the most creative date you've planned for each other?"
+    },
+    {
+        "questionNumber": 437,
+        "question": "If your love was a flavor, what would it taste like?"
+    },
+    {
+        "questionNumber": 438,
+        "question": "What's your favorite way to express affection to each other?"
+    },
+    {
+        "questionNumber": 440,
+        "question": "What is your favorite way to show appreciation and love for each other on a regular day?"
+    },
+    {
+        "questionNumber": 439,
+        "question": "If you two were characters in a movie, what would be your iconic lines?"
+    },
+    {
+        "questionNumber": 441,
+        "question": "What is the most unexpected adventure you've had together?"
+    },
+    {
+        "questionNumber": 442,
+        "question": "How do you surprise each other and keep the element of mystery alive?"
+    },
+    {
+        "questionNumber": 443,
+        "question": "What is the most cherished memento or keepsake you both share?"
+    },
+    {
+        "questionNumber": 444,
+        "question": "How do you support and uplift each other's spirits during tough times?"
+    },
+    {
+        "questionNumber": 445,
+        "question": "What is your favorite way to express your love and affection non-verbally?"
+    },
+    {
+        "questionNumber": 446,
+        "question": "How do you encourage and motivate each other to pursue your dreams?"
+    },
+    {
+        "questionNumber": 447,
+        "question": "What is the most memorable surprise you've planned for your partner's birthday?"
+    },
+    {
+        "questionNumber": 448,
+        "question": "How do you celebrate and commemorate your relationship anniversaries?"
+    },
+    {
+        "questionNumber": 449,
+        "question": "What is the most daring or adventurous goal you've achieved together?"
+    },
+    {
+        "questionNumber": 450,
+        "question": "How do you express your gratitude for having each other in your lives?"
+    },
+    {
+        "questionNumber": 451,
+        "question": "What is the most heartwarming or sentimental experience you've shared as a couple?"
+    },
+    {
+        "questionNumber": 452,
+        "question": "How do you maintain a sense of playfulness and fun in your relationship?"
+    },
+    {
+        "questionNumber": 453,
+        "question": "What is the most profound lesson you've learned about love from being together?"
+    },
+    {
+        "questionNumber": 454,
+        "question": "How do you support and encourage each other's passions and hobbies?"
+    },
+    {
+        "questionNumber": 455,
+        "question": "What is the most memorable moment of shared laughter you've had?"
+    },
+    {
+        "questionNumber": 456,
+        "question": "How do you keep the romance alive through gestures of love and thoughtfulness?"
+    },
+    {
+        "questionNumber": 457,
+        "question": "What is the most meaningful compliment you've received from your partner?"
+    },
+    {
+        "questionNumber": 458,
+        "question": "How do you show appreciation for the little things your partner does?"
+    },
+    {
+        "questionNumber": 459,
+        "question": "What is the most valuable lesson you've learned from navigating challenges together?"
+    },
+    {
+        "questionNumber": 460,
+        "question": "How do you maintain open and honest communication in your relationship?"
     }
+
 ]
+
  
 
 

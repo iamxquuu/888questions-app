@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct PlayersNamesView: View {
+    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     @State private var playerNames: [String] = []
     let selectedNumber: Int
     
@@ -20,30 +21,54 @@ struct PlayersNamesView: View {
                 .foregroundColor(Color("background888"))
                 .ignoresSafeArea()
             VStack {
+                Rectangle()
+                    .frame(height: 0)
+                    .navigationBarBackButtonHidden(true)
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarLeading) {
+                            Button(action: {
+                                presentationMode.wrappedValue.dismiss()
+                            }) {
+                                Image(systemName: "chevron.backward")
+                                    .foregroundColor(Color("pink888"))
+                                    .bold()
+                                
+                            }
+                        }
+                    }
                 
                 ScrollView {
-                    Text("Enter Players Names:")
-                        .font(.ButtonGasoek)
-                        .foregroundColor(Color("pink888"))
-                        .padding(.horizontal, 20)
-                        .padding(.top, 20)
-                        
-                    Text("Your username can contain a maximum of 11 characters.")
-                        .font(.smallGasoek)
-                        .foregroundColor(Color("pink888"))
-                        .padding(.horizontal, 20)
-                        .padding(.bottom, 45)
+                    HStack{
+                        Text("Enter Player Names:")
+                            .font(.ButtonGasoek)
+                            .foregroundColor(Color("pink888"))
+                            
+                        Spacer()
+                    }.padding(.top, 10)
+                    .padding(.horizontal, 20)
+                    
+                    HStack{
+                        Text("Your username can contain a maximum of 11 characters.")
+                            .font(.smallGasoek)
+                            .foregroundColor(Color("pink888"))
+                        Spacer()
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 35)
                     
                     ForEach(playerNames.indices, id: \.self) { index in
                         HStack{
-                            Text("Player \(index + 1)")
+                            Text("Player")
+                                .font(.smallGasoek)
+                                .foregroundColor(Color("pink888"))
+                            Text("\(index + 1)")
                                 .font(.smallGasoek)
                                 .foregroundColor(Color("pink888"))
                                 
                             Spacer()
-                        }.padding(.leading, 30)
+                        }.padding(.leading, 20)
                         
-                        TextField("Player \(index + 1)", text: $playerNames[index])
+                        TextField("", text: $playerNames[index])
                             .onChange(of: playerNames[index]) { newValue in
                                 if newValue.count > 11 {
                                     playerNames[index] = String(newValue.prefix(11))
@@ -51,13 +76,17 @@ struct PlayersNamesView: View {
                             }
                             .padding()
                             .background(Color.white)
+                            .foregroundColor(.black)
                             .cornerRadius(10)
                             .padding(.horizontal)
                     }
-                    NavigationLink(destination: ContentView(playerNames: playerNames)) {
+                    NavigationLink(destination: ContentViewCouples(playerNames: playerNames)) {
                         ZStack {
-                            rectangleView(cornerRadius: 20, height: 70)
+                            RoundedRectangle(cornerRadius: 10)
+                                .padding(.horizontal, 15)
+                                .frame(height: 70)
                                 .foregroundColor(Color("pink888"))
+                                .shadow(color: .black, radius: 2)
                             Text("Next")
                                 .foregroundColor(.white)
                                 .font(.ButtonGasoek)

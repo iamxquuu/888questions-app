@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct PlayersCountView: View {
+    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     @State private var selectedNumber = 1
     var body: some View{
         ZStack{
@@ -14,6 +15,22 @@ struct PlayersCountView: View {
                 .foregroundColor(Color("background888"))
                 .ignoresSafeArea()
             VStack {
+                Rectangle()
+                    .frame(height: 0)
+                    .navigationBarBackButtonHidden(true)
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarLeading) {
+                            Button(action: {
+                                presentationMode.wrappedValue.dismiss()
+                            }) {
+                                Image(systemName: "chevron.backward")
+                                    .foregroundColor(Color("pink888"))
+                                    .bold()
+                                
+                            }
+                        }
+                    }
+
                 Text("Choose number of players:")
                     .font(.ButtonGasoek)
                     .foregroundColor(Color("pink888"))
@@ -23,14 +40,21 @@ struct PlayersCountView: View {
                 Picker("Liczba", selection: $selectedNumber) {
                     ForEach(1...15, id: \.self) { number in
                         Text("\(number)")
+                            .foregroundColor(.white)
                     }
                 }
                 .pickerStyle(WheelPickerStyle())
                 .padding()
-
-                Text("Number of Players: \(selectedNumber)")
-                    .font(.smallGasoek)
-                    .foregroundColor(Color("pink888"))
+                
+                HStack{
+                    Text("Number of Players: ")
+                        .font(.smallGasoek)
+                        .foregroundColor(Color("pink888"))
+                    Text("\(selectedNumber)")
+                        .font(.smallGasoek)
+                        .foregroundColor(Color("pink888"))
+                }
+                
             
 
                 NavigationLink {

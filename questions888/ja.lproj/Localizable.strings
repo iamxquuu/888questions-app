@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  questions888
+
+  Created by Marcel Maciaszek on 31/07/2023.
+  
+*/
+"Choose Category to Continue" = "続行するカテゴリーを選択してください";
+"Couples" = "カップル";
+"Party" = "パーティー";
+"Coming Soon..." = "近日公開...";
+"Choose number of players:" = "プレイヤーの数を選択してください：";
+"Number of Players: " = "プレイヤー数：";
+"Next" = "次";
+"Enter Player Names:" = "プレイヤー名を入力してください：";
+"Your username can contain a maximum of 11 characters." = "ユーザー名は最大11文字です。";
+"Player" = "プレイヤー";
+"Category" = "カテゴリー";
+"Questions for Couples" = "カップルの質問";
+"out of 888 on this Category" = "このカテゴリーで888問中";
+"Next Question" = "次の質問";
+"Question" = "質問";
+
